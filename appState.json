@@ -1,0 +1,100 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "1d01dfdf-4df6-4f69-9c3b-465dbc8f7972": {
+        "id": "1d01dfdf-4df6-4f69-9c3b-465dbc8f7972",
+        "parent": null,
+        "name": "webhookauth.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "webhookauth.js",
+        "cursor": {
+          "lineNumber": 6,
+          "column": 25
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "webhookauth",
+          "handler": "handler"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "d3824275-a85e-48cb-973e-a5fc3306443d": {
+        "id": "d3824275-a85e-48cb-973e-a5fc3306443d",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "1b614f59-2dbe-4722-9235-1ee983e8c696": {
+        "id": "1b614f59-2dbe-4722-9235-1ee983e8c696",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "openFiles": [
+      "1d01dfdf-4df6-4f69-9c3b-465dbc8f7972",
+      "1b614f59-2dbe-4722-9235-1ee983e8c696",
+      "d3824275-a85e-48cb-973e-a5fc3306443d"
+    ],
+    "currentFileId": "1d01dfdf-4df6-4f69-9c3b-465dbc8f7972",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {
+        "express": {
+          "name": "express",
+          "version": "4.17.1",
+          "dev": false,
+          "language": "nodejs"
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "webhookauth",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1594844869006
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "webhookauth",
+      "url": "https://github.com/nalo9342/webhookauth"
+    }
+  }
+}
